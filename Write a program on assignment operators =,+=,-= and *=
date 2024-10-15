@@ -1,0 +1,6 @@
+a=int(input("x: "))
+b=int(input("y: "))
+print(f"x = y: {b}")
+print(f"x += y: {a+b}")
+print(f"x -= y: {a-b}")
+print(f"x *= y: {a*b}")
