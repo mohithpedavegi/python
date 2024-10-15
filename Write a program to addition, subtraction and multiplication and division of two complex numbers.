@@ -1,0 +1,16 @@
+# Take input for the first complex number c1
+a=complex(input("c1: "))
+# Take input for the second complex number c2
+b=complex(input("c2: "))
+
+# perform + operation on the complex numbers and print the result
+print("a1 + b2 =",a+b)
+
+# subtract c2 from c1 and print the result
+print("a1 - b2 =",a-b)
+
+# multiple c1, c2 and print the result
+print("a1 * b2 =",a*b)
+
+# divide c2 from c1 and print the result
+print("a1 / b2 =",a/b)
