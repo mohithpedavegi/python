@@ -1,0 +1,26 @@
+a=input()
+b=input()
+if a==b:
+	print(f"{a} == {b} : True")
+else:
+	print(f"{a} == {b} : False")
+if a!=b:
+	print(f"{a} != {b} : True")
+else:
+	print(f"{a} != {b} : False")
+if a<b:
+	print(f"{a} < {b}  : True")
+else:
+	print(f"{a} < {b}  : False")
+if a<=b:
+	print(f"{a} <= {b} : True")
+else:
+	print(f"{a} <= {b} : False")
+if a>b:
+	print(f"{a} > {b}  : True")
+else:
+	print(f"{a} > {b}  : False")
+if a>=b:
+	print("{} >= {} : True".format(a,b))
+else:
+	print("{} >= {} : False".format(a,b))
