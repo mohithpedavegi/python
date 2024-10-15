@@ -1,0 +1,10 @@
+def odd_checker(lst):
+	return[num for num in lst if num % 2 !=0]
+# write your code...
+
+def square_list(lst):
+	return[num**2 for num in lst]
+# write your code...
+
+input_lst = list(map(int,input().split(",")))
+print(odd_checker(square_list(input_lst)))
