@@ -1,0 +1,12 @@
+def find_max_product(nums):
+	nums.sort()
+	maxi=nums[-1]
+	mini=nums[-2]
+	prod=maxi*mini
+	return prod
+# write your code here..
+
+input_numbers = input()
+numbers_list = list(map(int, input_numbers.split()))
+result = find_max_product(numbers_list)
+print(result)
