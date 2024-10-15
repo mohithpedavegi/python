@@ -1,0 +1,14 @@
+lst=list(map(int,input("Enter a list of elements (separated by commas): ").split(',')))
+print("List of elements: "+str(lst))
+length=len(lst)
+print("Length of list: " +str(length))
+lst.sort()
+mini=lst[0]
+maxi=lst[-1]
+sum=0
+for i in range(length):
+	sum=sum+int(lst[i])
+print("Minimum value: "+str(mini))
+print("Maximum value: "+str(maxi))
+print("Sum of values: "+str(sum))
+print("Sorted list: "+str(lst))
