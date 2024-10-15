@@ -1,0 +1,14 @@
+list_a=list(input().split(' '))
+num=list(input().split(' '))
+num2=int((input()))
+num3=input()
+print(list_a)
+list_a=list_a+num
+length=len(list_a)
+print(list_a)
+if num2<=length:
+	list_a.insert(num2,num3)
+	print(list_a)
+else:
+	print("Invalid index")
+print(list_a[ : :-1])
