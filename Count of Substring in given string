@@ -1,0 +1,5 @@
+a=input("")
+b=input("")
+x=sum(1 for i in range(len(a))
+	  if a.startswith(b,i))
+print(x)
