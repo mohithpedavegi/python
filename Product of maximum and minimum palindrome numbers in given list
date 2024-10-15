@@ -1,0 +1,16 @@
+list_a=list(map(str,(input().split(' '))))
+length=len(list_a)
+list_b=[]
+for i in range (length):
+	n=list_a[i]
+	if n==n[: :-1]:
+		list_b.append(n)
+	else:
+		continue
+if len(list_b)==0:
+	print("0")
+else:
+	list_b.sort()
+	mini=int(list_b[0])
+	maxi=int(list_b[-1])
+	print(mini*maxi)
