@@ -1,0 +1,8 @@
+a=int(input("a: "))
+b=int(input("b: "))
+n=int(input("N: "))
+i = 1
+print("result:",end=" ")
+while(i<=n):
+	print(f"{a+b**i}",end=' ')
+	i=i+1
