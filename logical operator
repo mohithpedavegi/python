@@ -1,0 +1,12 @@
+a=int(input())
+b=int(input())
+if(a==0):
+ print(f"{a} and {b}: {a}")
+else:
+  print(f"{a} and {b}: {b}")
+if(a!=0):
+	print(f"{a} or {b}: {a}")
+else:
+	print(f"{a} or {b}: {b}")
+print(f"not {a}:",not a)
+print(f"not {b}:",not b)
