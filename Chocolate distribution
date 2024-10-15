@@ -1,0 +1,18 @@
+def order_chocolate(n,m):
+	Invalid="Invalid"
+	if m==0:
+		return Invalid
+	if n%m==0:
+		return 0
+	else:
+		sum=0
+		while n%m!=0:
+			sum=sum+1
+			n=n+1
+		return sum
+#write your code
+
+
+chclts = int(input())
+stdnts = int(input())
+print(order_chocolate(chclts,stdnts))
