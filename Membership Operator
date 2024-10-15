@@ -1,0 +1,4 @@
+num_list = [1, 2, 3, 4, 5, 15, 25, 89, 54, 123, 489]
+a=int(input())
+print(True if a in num_list else False)
+print(True if a not in num_list else False)
