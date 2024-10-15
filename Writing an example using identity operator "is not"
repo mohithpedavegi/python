@@ -1,0 +1,7 @@
+x=int(input("x: "))
+y=int(input("y: "))
+a=x is not y
+if x is not y:
+	print(x, 'is not', y,a)
+else:
+	print(x,'is not',y,a)
