@@ -1,0 +1,10 @@
+#def calculate_stats( ):
+x=list(map(int,input().split(" ")))
+sum=0
+x.sort()
+for i in x:
+	sum=sum+i
+avg=round((sum/len(x)),2)
+print(sum)
+print(avg)
+print(i)
