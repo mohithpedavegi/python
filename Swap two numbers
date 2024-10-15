@@ -1,0 +1,9 @@
+a=input("Enter the first number: ")
+b=input("Enter the second number: ")
+print("Original numbers:")
+print("First number: {}".format(float(a)))
+print("Second number: {}".format(float(b)))
+print("Swapped numbers:")
+a,b=b,a
+print("First number: {}".format(float(a)))
+print("Second number: {}".format(float(b)))
